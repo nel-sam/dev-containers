@@ -1,9 +1,6 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.217.4/containers/dart
 {
 	"name": "Flutter",
 	"image": "matspfeiffer/flutter:beta",
-	// Set *default* container specific settings.json values on container create.
 	"settings": {
 		"emeraldwalk.runonsave": {
 			"commands": [
@@ -15,7 +12,6 @@
 			]
 		},
 	},
-	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"streetsidesoftware.code-spell-checker",
 		"dart-code.dart-code",
@@ -28,10 +24,4 @@
 		"ms-vsliveshare.vsliveshare",
 		"KnisterPeter.vscode-github",
 	],
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
-	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode"
 }
